@@ -16,11 +16,16 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         hello()
+        bye()
         
         // Do any additional setup after loading the view.
     }
     
     func hello() {
+        
+    }
+    
+    func bye() {
         
     }
 
