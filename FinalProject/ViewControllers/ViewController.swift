@@ -10,26 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBAction func unwindToThisViewController(segue: UIStoryboardSegue) {
+    @IBAction func unwindToHomeViewController(segue: UIStoryboardSegue) {
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        hello()
-        bye()
-        
-        // Do any additional setup after loading the view.
-    }
-    
-    func hello() {
-        
-    }
-    
-    func bye() {
-        
-    }
 
+    }
 
 }
 

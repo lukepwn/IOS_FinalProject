@@ -19,6 +19,8 @@
 		AE4DDC58238ED87500A3D0B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4DDC56238ED87500A3D0B9 /* LaunchScreen.storyboard */; };
 		AE4DDC63238ED87500A3D0B9 /* FinalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4DDC62238ED87500A3D0B9 /* FinalProjectTests.swift */; };
 		AE4DDC6E238ED87500A3D0B9 /* FinalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4DDC6D238ED87500A3D0B9 /* FinalProjectUITests.swift */; };
+		AEF1E585238F229F00ADE8F0 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF1E584238F229F00ADE8F0 /* SwiftyJSON.framework */; };
+		AEF1E587238F28CA00ADE8F0 /* CityWeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF1E586238F28CA00ADE8F0 /* CityWeatherViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		AE4DDC69238ED87500A3D0B9 /* FinalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE4DDC6D238ED87500A3D0B9 /* FinalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjectUITests.swift; sourceTree = "<group>"; };
 		AE4DDC6F238ED87500A3D0B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEF1E584238F229F00ADE8F0 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEF1E586238F28CA00ADE8F0 /* CityWeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityWeatherViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEF1E585238F229F00ADE8F0 /* SwiftyJSON.framework in Frameworks */,
 				A6A1C4A51FBE3A806C9A4706 /* Pods_FinalProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -119,6 +124,7 @@
 			children = (
 				AE4DDC4F238ED87200A3D0B9 /* ViewController.swift */,
 				AE1BA525238EDF950066C835 /* WeatherViewController.swift */,
+				AEF1E586238F28CA00ADE8F0 /* CityWeatherViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -204,6 +210,7 @@
 		E36DC50DDD53DED8877D5339 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AEF1E584238F229F00ADE8F0 /* SwiftyJSON.framework */,
 				601EA75AB9F709BB3A6668E6 /* Pods_FinalProject.framework */,
 				A86AB56B96ADFC5ECF7746B3 /* Pods_FinalProject_FinalProjectUITests.framework */,
 				3C98A7FAAE69C89055801FB3 /* Pods_FinalProjectTests.framework */,
@@ -447,6 +454,7 @@
 			files = (
 				AE4DDC50238ED87200A3D0B9 /* ViewController.swift in Sources */,
 				AE1BA526238EDF950066C835 /* WeatherViewController.swift in Sources */,
+				AEF1E587238F28CA00ADE8F0 /* CityWeatherViewController.swift in Sources */,
 				AE4DDC4E238ED87200A3D0B9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
