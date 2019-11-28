@@ -19,8 +19,10 @@
 		AE4DDC58238ED87500A3D0B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4DDC56238ED87500A3D0B9 /* LaunchScreen.storyboard */; };
 		AE4DDC63238ED87500A3D0B9 /* FinalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4DDC62238ED87500A3D0B9 /* FinalProjectTests.swift */; };
 		AE4DDC6E238ED87500A3D0B9 /* FinalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4DDC6D238ED87500A3D0B9 /* FinalProjectUITests.swift */; };
+		AE8F53D9238F549F00358237 /* HolidayDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8F53D8238F549F00358237 /* HolidayDetailViewController.swift */; };
 		AEF1E585238F229F00ADE8F0 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF1E584238F229F00ADE8F0 /* SwiftyJSON.framework */; };
 		AEF1E587238F28CA00ADE8F0 /* CityWeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF1E586238F28CA00ADE8F0 /* CityWeatherViewController.swift */; };
+		AEF1E589238F412700ADE8F0 /* HolidayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF1E588238F412700ADE8F0 /* HolidayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,8 +67,10 @@
 		AE4DDC69238ED87500A3D0B9 /* FinalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE4DDC6D238ED87500A3D0B9 /* FinalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjectUITests.swift; sourceTree = "<group>"; };
 		AE4DDC6F238ED87500A3D0B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE8F53D8238F549F00358237 /* HolidayDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayDetailViewController.swift; sourceTree = "<group>"; };
 		AEF1E584238F229F00ADE8F0 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEF1E586238F28CA00ADE8F0 /* CityWeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityWeatherViewController.swift; sourceTree = "<group>"; };
+		AEF1E588238F412700ADE8F0 /* HolidayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +129,8 @@
 				AE4DDC4F238ED87200A3D0B9 /* ViewController.swift */,
 				AE1BA525238EDF950066C835 /* WeatherViewController.swift */,
 				AEF1E586238F28CA00ADE8F0 /* CityWeatherViewController.swift */,
+				AEF1E588238F412700ADE8F0 /* HolidayViewController.swift */,
+				AE8F53D8238F549F00358237 /* HolidayDetailViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -455,6 +461,8 @@
 				AE4DDC50238ED87200A3D0B9 /* ViewController.swift in Sources */,
 				AE1BA526238EDF950066C835 /* WeatherViewController.swift in Sources */,
 				AEF1E587238F28CA00ADE8F0 /* CityWeatherViewController.swift in Sources */,
+				AEF1E589238F412700ADE8F0 /* HolidayViewController.swift in Sources */,
+				AE8F53D9238F549F00358237 /* HolidayDetailViewController.swift in Sources */,
 				AE4DDC4E238ED87200A3D0B9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

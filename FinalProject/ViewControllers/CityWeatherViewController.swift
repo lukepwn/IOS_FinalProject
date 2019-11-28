@@ -2,7 +2,7 @@
 //  CityWeatherViewController.swift
 //  FinalProject
 //
-//  Created by Xcode User on 2019-11-27.
+//  Created by Kevin Kim on 2019-11-27.
 //  Copyright © 2019 sheridan. All rights reserved.
 //
 
