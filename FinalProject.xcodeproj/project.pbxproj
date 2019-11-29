@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3EDD66F2BFEA4A1C16ECB96D /* Pods_FinalProject_FinalProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A86AB56B96ADFC5ECF7746B3 /* Pods_FinalProject_FinalProjectUITests.framework */; };
 		7C52C02E1688604E1EBA08A0 /* Pods_FinalProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C98A7FAAE69C89055801FB3 /* Pods_FinalProjectTests.framework */; };
+		9D80F9712391A4C7009BC231 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D80F9702391A4C7009BC231 /* NewsViewController.swift */; };
 		A6A1C4A51FBE3A806C9A4706 /* Pods_FinalProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 601EA75AB9F709BB3A6668E6 /* Pods_FinalProject.framework */; };
 		AE1BA524238EDE840066C835 /* mountain.png in Resources */ = {isa = PBXBuildFile; fileRef = AE1BA523238EDE840066C835 /* mountain.png */; };
 		AE1BA526238EDF950066C835 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1BA525238EDF950066C835 /* WeatherViewController.swift */; };
@@ -50,6 +51,7 @@
 		601EA75AB9F709BB3A6668E6 /* Pods_FinalProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinalProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B3727E6B84F0E76B98B3ABC /* Pods-FinalProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FinalProject/Pods-FinalProject.debug.xcconfig"; sourceTree = "<group>"; };
 		7E3FA89E5CB026F39581B105 /* Pods-FinalProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FinalProjectTests/Pods-FinalProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D80F9702391A4C7009BC231 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		A86AB56B96ADFC5ECF7746B3 /* Pods_FinalProject_FinalProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinalProject_FinalProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9938DFFC6C69251188357D7 /* Pods-FinalProject-FinalProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalProject-FinalProjectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FinalProject-FinalProjectUITests/Pods-FinalProject-FinalProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		AE1BA523238EDE840066C835 /* mountain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mountain.png; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				AEF1E586238F28CA00ADE8F0 /* CityWeatherViewController.swift */,
 				AEF1E588238F412700ADE8F0 /* HolidayViewController.swift */,
 				AE8F53D8238F549F00358237 /* HolidayDetailViewController.swift */,
+				9D80F9702391A4C7009BC231 /* NewsViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -462,6 +465,7 @@
 				AE1BA526238EDF950066C835 /* WeatherViewController.swift in Sources */,
 				AEF1E587238F28CA00ADE8F0 /* CityWeatherViewController.swift in Sources */,
 				AEF1E589238F412700ADE8F0 /* HolidayViewController.swift in Sources */,
+				9D80F9712391A4C7009BC231 /* NewsViewController.swift in Sources */,
 				AE8F53D9238F549F00358237 /* HolidayDetailViewController.swift in Sources */,
 				AE4DDC4E238ED87200A3D0B9 /* AppDelegate.swift in Sources */,
 			);
