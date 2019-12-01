@@ -16,6 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var cityName: String = ""
     var holidayIndex: Int = 0
     var countryCode: String = ""
+    var headline: String =  ""
+    var url : String = ""
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
