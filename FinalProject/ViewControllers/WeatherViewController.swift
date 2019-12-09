@@ -55,6 +55,7 @@ class WeatherViewController: UIViewController, UITableViewDataSource, UITableVie
 
         mainDelegate.cityName = OntarioCities[indexPath.row]
         
+        
         self.performSegue(withIdentifier: "segueWeather", sender: nil)
     }
     

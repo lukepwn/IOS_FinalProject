@@ -18,6 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var countryCode: String = ""
     var headline: String =  ""
     var url : String = ""
+    var routeArray: [String] = []
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
