@@ -12,6 +12,10 @@
 		9D3FEE6F2394215C0017D55F /* ViewSiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3FEE6E2394215C0017D55F /* ViewSiteViewController.swift */; };
 		9D3FEE71239422AC0017D55F /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3FEE70239422AC0017D55F /* News.swift */; };
 		9D3FEE73239424520017D55F /* SiteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3FEE72239424520017D55F /* SiteCell.swift */; };
+		9D7E645C239F1D9800DBC9D8 /* 185971.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D7E645B239F1D9800DBC9D8 /* 185971.jpg */; };
+		9D7E6460239F1F4B00DBC9D8 /* holidays.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7E645D239F1F4B00DBC9D8 /* holidays.png */; };
+		9D7E6461239F1F4B00DBC9D8 /* weatherbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7E645E239F1F4B00DBC9D8 /* weatherbtn.png */; };
+		9D7E6462239F1F4B00DBC9D8 /* newsbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7E645F239F1F4B00DBC9D8 /* newsbtn.png */; };
 		9D80F9712391A4C7009BC231 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D80F9702391A4C7009BC231 /* NewsViewController.swift */; };
 		A6A1C4A51FBE3A806C9A4706 /* Pods_FinalProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 601EA75AB9F709BB3A6668E6 /* Pods_FinalProject.framework */; };
 		AE1BA524238EDE840066C835 /* mountain.png in Resources */ = {isa = PBXBuildFile; fileRef = AE1BA523238EDE840066C835 /* mountain.png */; };
@@ -59,6 +63,10 @@
 		9D3FEE6E2394215C0017D55F /* ViewSiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSiteViewController.swift; sourceTree = "<group>"; };
 		9D3FEE70239422AC0017D55F /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		9D3FEE72239424520017D55F /* SiteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteCell.swift; sourceTree = "<group>"; };
+		9D7E645B239F1D9800DBC9D8 /* 185971.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 185971.jpg; sourceTree = "<group>"; };
+		9D7E645D239F1F4B00DBC9D8 /* holidays.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = holidays.png; sourceTree = "<group>"; };
+		9D7E645E239F1F4B00DBC9D8 /* weatherbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weatherbtn.png; sourceTree = "<group>"; };
+		9D7E645F239F1F4B00DBC9D8 /* newsbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newsbtn.png; sourceTree = "<group>"; };
 		9D80F9702391A4C7009BC231 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		A86AB56B96ADFC5ECF7746B3 /* Pods_FinalProject_FinalProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinalProject_FinalProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9938DFFC6C69251188357D7 /* Pods-FinalProject-FinalProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalProject-FinalProjectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FinalProject-FinalProjectUITests/Pods-FinalProject-FinalProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -127,6 +135,17 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		9D7E645A239F1D9800DBC9D8 /* project */ = {
+			isa = PBXGroup;
+			children = (
+				9D7E645B239F1D9800DBC9D8 /* 185971.jpg */,
+				9D7E645D239F1F4B00DBC9D8 /* holidays.png */,
+				9D7E645F239F1F4B00DBC9D8 /* newsbtn.png */,
+				9D7E645E239F1F4B00DBC9D8 /* weatherbtn.png */,
+			);
+			path = project;
+			sourceTree = "<group>";
+		};
 		AE1BA51E238EDD5F0066C835 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +175,7 @@
 		AE1BA520238EDD6F0066C835 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				9D7E645A239F1D9800DBC9D8 /* project */,
 				AE1BA523238EDE840066C835 /* mountain.png */,
 			);
 			path = Images;
@@ -352,9 +372,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE4DDC58238ED87500A3D0B9 /* LaunchScreen.storyboard in Resources */,
+				9D7E645C239F1D9800DBC9D8 /* 185971.jpg in Resources */,
+				9D7E6460239F1F4B00DBC9D8 /* holidays.png in Resources */,
 				AE4DDC55238ED87500A3D0B9 /* Assets.xcassets in Resources */,
 				AE1BA524238EDE840066C835 /* mountain.png in Resources */,
 				AE4DDC53238ED87200A3D0B9 /* Main.storyboard in Resources */,
+				9D7E6461239F1F4B00DBC9D8 /* weatherbtn.png in Resources */,
+				9D7E6462239F1F4B00DBC9D8 /* newsbtn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
